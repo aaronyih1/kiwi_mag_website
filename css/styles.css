@@ -20,6 +20,11 @@ footer{
 a{
 	color:#2A4ABD;
 }
+#last_issue_link{
+	position: absolute;
+	left:80px;
+
+}
 #navbar{
 	list-style: none;
 	text-align: right;
@@ -73,6 +78,14 @@ a{
 	background-color: #FAFF77;
 	padding-right: 35px;
 	padding-left: 5px;
+}
+@media (max-width: 670px){
+	#last_issue_link{
+		position: relative;
+		right: -140px;
+		display: inline-block;
+		left: auto !important;
+	}
 }
 @media (max-width: 691px){
 	#content tr{
